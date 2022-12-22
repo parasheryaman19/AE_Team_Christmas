@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "SuperMario";
+	src: url("SuperMario256.ttf");
+}
+
+@font-face {
+	font-family: "8bit";
+	src: url("pixelmix.ttf");
+}
+
+body {
+	margin: 0;
+}
+
+#canvas {
+}
+
+#content {
+	margin-top: -4px;
+	background: white;
+	color: skyblue;
+	/*text-shadow: rgba(100, 149, 237, 1) 1px 1px 0px;*/
+
+	padding: 40px 10px;
+
+	text-align: center;
+	font-size: 16pt;
+	font-family: "8bit", Helvetica, Arial, sans-serif;
+	line-height: 22pt;
+}
+
+#content a {
+	text-decoration: none;
+	color: rgb(107, 146, 185);
+}
+
+p {
+	margin-bottom: 60px;
+}
+
+.smaller {
+	font-size: 12pt;
+	margin-bottom: 8px;
+	margin-top: 0;
+}
